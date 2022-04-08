@@ -10,7 +10,7 @@ def sendeStr(komm_s, datenStr):
     datenBytes = bytes(datenStr, 'utf-8')
     komm_s.sendall(datenBytes)
 
-    sendeTrennByte(komm_s)
+    #sendeTrennByte(komm_s)
 
 
 # Sendet das TrennByte
